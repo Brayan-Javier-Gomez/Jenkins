@@ -1,0 +1,94 @@
+
+# Non-config file types
+*.log
+*.log.*
+*.tmp
+*.old
+*.bak
+*.jar
+*.jpi
+*.jpi.pinned
+*.json
+
+# Security related
+/.ssh
+/secret.key*
+/secrets
+/credentials.xml
+/identity.key
+jenkins_home/users
+jenkins_home/.cache
+jenkins_home/war
+jenkins_home/plugins
+jenkins_home/secrets
+jenkins_home/updates
+jenkins_home/jenkins*
+jenkins_home/secret*
+jenkins_home/.java
+jenkins_home/io*
+jenkins_home/hudson*
+jenkins_home/identity*
+# Non-config file types
+*.log
+*.log.*
+*.tmp
+*.old
+*.bak
+*.jar
+*.jpi
+*.jpi.pinned
+*.json
+
+# Security related
+/.ssh
+/secret.key*
+/secrets
+/credentials.xml
+/identity.key
+ 
+# Generated Jenkins state
+jenkins_home/.owner
+jenkins_home/queue.xml
+jenkins_home/nodeMonitors*
+jenkins_home/userContent
+/fingerprints/
+/shelvedProjects/
+/updates/
+ 
+# Tools that Jenkins manages
+/tools/
+/cache/
+ 
+# Extracted plugins
+/plugins/*/
+ 
+# Job state
+builds/
+workspace/
+lastStable
+lastSuccessful
+nextBuildNumber
+modules/
+
+# Interactive shell stuff
+.bash_history
+/.vim*
+.lesshst
+.Xauthority
+
+# Package cache
+/.gradle/caches
+/.ivy2/
+/.m2/
+/.node-gyp/
+/.npm/
+/.sbt/
+
+# TFS plugin
+/.microsoft
+
+# FOP cache
+/.fop
+
+# Fontconfig cache
+/. 
